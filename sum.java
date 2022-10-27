@@ -2,6 +2,6 @@ class sum{
     public static void main(String []ar) {
         int a = 10;
         int b = 10;
-        System.out.println("Addition is "a+b);
+        System.out.println("Addition is " + a+b);
     }
 }
