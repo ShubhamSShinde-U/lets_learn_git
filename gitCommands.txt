@@ -1,0 +1,35 @@
+cd .. //will go to home directory
+git --version //version check
+git -global config user.email "mail id" // set mail id
+git -global config user.name "name" // name 
+mkdir name of dir // make directory
+cd name of dir // change the directory
+git init // initialize the git to directory 
+git add filename // add file in staging in git
+git commit -m "initial commit" // commit the changes
+git log // changes information
+git add . // will add all the files from dir to staging are
+git checkout unique hashcode // goto that commited file
+git checkout master // will go to currect stage of file
+git brach // creates the branch
+git chechout branch name // will goto that branch
+
+// rather than creating the new branch and then switching to new branch there is another way
+git checkout -b shubham/name 
+
+//whenever there is need of adding data one branch to another then we have to merge that branches
+git merge shubham/multiply
+
+//if you want some file should be keep in private then you can do it by git ignore
+touch .gitignore 
+
+
+// we can push on github from git 
+git remote add origin https://github.com/ShubhamSShinde-U/lets_learn_git.git
+
+git remote -v //gives you where online you are going to push and fetch the files/code
+git branch -M main	// this and below commands will add project to origin 
+git push -u origin main 
+
+
+// to push any branch -> goto that branch -> git push -u origin branch name
